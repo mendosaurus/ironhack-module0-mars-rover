@@ -12,7 +12,6 @@ const grid = [
     [{x:9,y:0},{x:9,y:1},{x:9,y:2},{x:9,y:3},{x:9,y:4},{x:9,y:5},{x:9,y:6},{x:9,y:7},{x:9,y:8},{x:9,y:9}]
   ]
   
-  
   // Rover Object Goes Here
   const rovers = {
     rover : {

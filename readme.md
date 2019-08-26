@@ -1,5 +1,6 @@
-#JS | Module Exercise: Mars Rover kata
-##Learning goals
+# JS | Module Exercise: Mars Rover kata
+
+## Learning goals
 In this exercise, the goal is to apply as many as possible of the concepts you’ve just learned:
 
 how to work with different types of variables,
@@ -9,7 +10,7 @@ Introduction
 We are sending a rover to Mars, and we need to be able to move it through a series of instructions sent from the Earth. As the final exercise for this part of the module, you will be leading this project.
 
 
-##Getting started and submission
+## Getting started and submission
 Open a new CodePen and when ready, send the link to the TA via Slack or email. Don’t wait until you’re entirely done, any time you’re stuck reach out in code-help Slack channel to members of the Ironhack community, to your peers in your cohorts’ Slack channel and then if you didn’t get needed help, to your TAs.
 
 Paste this code as your start in the CodePen you just opened:
@@ -33,7 +34,7 @@ function moveForward(rover){
   console.log("moveForward was called")
 }
 
-##Basic Information
+## Basic Information
 Our Mars Rover is kind of dumb. By that, we mean it can’t move and turn at the same time. This means that if the rover wants to move to the left, its first move must be a turn. Its next move will then be a step forward.
 
 We will discuss this concept in more detail as we progress through the exercise.
@@ -49,12 +50,12 @@ Does this sound familiar to you? Haven’t we just done something similar in our
 
 Let’s go!
 
-##Iteration 1 | The Rover Object
+## Iteration 1 | The Rover Object
 Create an object to represent the rover. This object will have only one property for now: the direction.
 
 The direction property can contain one of four values: "N", "S", "E", or "W". The rover’s default direction will be "N" (as North).
 
-##Iteration 2 | Turning the Rover
+## Iteration 2 | Turning the Rover
 The rover has a direction attribute. We’ve already provided functions named turnLeft() and turnRight(). Each function receives a rover object as an argument. Your job is to turn the rover in the appropriate direction based off of its current direction.
 
 Examples:
@@ -71,7 +72,7 @@ Begin with a switch statement. Based off of which function is being called, turn
 
 Test these functions putting console logs in them which will tell you which direction is rover facing and check the output in the console of the CodePen.
 
-##Iteration 3 | Moving the Rover
+## Iteration 3 | Moving the Rover
 The rover’s position
 To move the rover around, we have to keep track of the rover’s position.
 
